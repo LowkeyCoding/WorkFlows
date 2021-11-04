@@ -23,15 +23,16 @@ jobs:
       - name: Setup DocFx
         run: |
           nuget install docfx.console -Version 2.58.9
-          mkdir D:\a\Flea\Flea\docfx.console.2.58.9\tools\Plugins
-          nuget install rest.tagpage -OutputDirectory D:\a\Flea\Flea\docfx.console.2.58.9\tools\Plugins
+          mkdir .\docfx.console.2.58.9\tools\Plugins
+          nuget install rest.tagpage -OutputDirectory .\docfx.console.2.58.9\tools\Plugins
+          dir
       - name: Generate DocFx Data
         run: |
-          D:\a\Flea\Flea\docfx.console.2.58.9\tools\docfx init -q
+          .\docfx.console.2.58.9\tools\docfx init -q
           mv ./Flea/* ./docfx_project/src
           mv ./api_spec.yaml ./docfx_project/src
           cd ./docfx_project
-          D:\a\Flea\Flea\docfx.console.2.58.9\tools\docfx metadata
+          .\docfx.console.2.58.9\tools\docfx metadata
       - name: Add Articles
         run: |
           IF ( Test-Path -Path ./Articles/index.md -PathType Leaf) { `
@@ -47,7 +48,7 @@ jobs:
       - name: Generate Documentation
         run: |
           dir
-          D:\a\Flea\Flea\docfx.console.2.58.9\tools\docfx docfx_project/docfx.json -t default,<output>/rest.tagpage.<version>/content
+          .\docfx.console.2.58.9\tools\docfx docfx_project/docfx.json -t default,<output>/rest.tagpage.<version>/content
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
