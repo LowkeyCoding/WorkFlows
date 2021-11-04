@@ -30,6 +30,7 @@ jobs:
         run: |
           .\docfx.console.2.58.9\tools\docfx init -q -o Docs
           rm .\Docs\docfx.json
+          dir
           mv ./docfx.json ./Docs
           mv ./Flea/* ./Docs/src
           mv ./api_spec.yaml ./Docs/src
