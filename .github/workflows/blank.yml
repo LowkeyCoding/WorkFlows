@@ -13,9 +13,12 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: suisei-cn/actions-download-file@v1
+        id: downloadfile  # Remember to give an ID if you need the output filename
+        name: Download the file
         with:
-          repository: 'LowkeyCoding/WorkFlows'
+          url: "https://raw.githubusercontent.com/LowkeyCoding/WorkFlows/master/docfx.json?token=ACQKOCUYNUDDK3V7HGXS2DDBRVW3I"
+          target: ./
       - uses: actions/checkout@v2
         with:
           repository: 'P3-DAT3-03/Flea'
