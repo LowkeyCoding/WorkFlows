@@ -32,23 +32,11 @@ jobs:
           mv ./Flea/* ./docfx_project/src
           mv ./api_spec.yaml ./docfx_project/src
           cd ./docfx_project
-          .\docfx.console.2.58.9\tools\docfx metadata
-      - name: Add Articles
-        run: |
-          IF ( Test-Path -Path ./Articles/index.md -PathType Leaf) { `
-             Remove-Item ./docfx_project/index.md `
-             mv ./Articles/index.md ./docfx_project/ } `
-          ELSE { `
-             echo "Missing Home" }
-          IF ( Test-Path -Path ./Articles/toc.yml -PathType Leaf) { `
-             Remove-Item ./docfx_project/articles/* `
-             mv ./Articles/* ./docfx_project/articles } `
-          ELSE { `
-             echo "Missing Toc" }
+          .\..\docfx.console.2.58.9\tools\docfx metadata
       - name: Generate Documentation
         run: |
           dir
-          .\docfx.console.2.58.9\tools\docfx docfx_project/docfx.json -t default,<output>/rest.tagpage.<version>/content
+          .\..\docfx.console.2.58.9\tools\docfx docfx_project/docfx.json -t default,<output>/rest.tagpage.<version>/content
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
