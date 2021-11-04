@@ -51,6 +51,7 @@ jobs:
           cd ./Docs
           .\..\docfx.console.2.58.9\tools\docfx
           cd ..
+          mkdir final
           cp ./Docs/Site/* ./final
           dir
       - name: Deploy to GitHub Pages
