@@ -14,6 +14,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          repository: 'LowkeyCoding/WorkFlows'
       - uses: actions/checkout@v2
         with:
           repository: 'P3-DAT3-03/Flea'
