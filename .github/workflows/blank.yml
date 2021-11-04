@@ -46,6 +46,7 @@ jobs:
           mv ./Flea/* ./Docs/src
           cd ./Docs
           .\..\docfx.console.2.58.9\tools\docfx metadata
+          dir
       - name: Generate Documentation
         run: |
           .\docfx.console.2.58.9\tools\docfx .\Docs\docfx.json
