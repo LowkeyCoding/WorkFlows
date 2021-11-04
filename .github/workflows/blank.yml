@@ -49,7 +49,7 @@ jobs:
       - name: Generate Documentation
         run: |
           cd ./Docs
-          .\docfx.console.2.58.9\tools\docfx
+          .\..\docfx.console.2.58.9\tools\docfx
           dir
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
