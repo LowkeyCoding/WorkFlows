@@ -45,13 +45,12 @@ jobs:
           mv ./docfx.json ./Docs
           mv ./openapi.swagger.json ./Docs/restapi
           mv ./Flea/* ./Docs/src
-          cd ./Docs
-          dir
           .\..\docfx.console.2.58.9\tools\docfx metadata
       - name: Generate Documentation
         run: |
+          cd ./Docs
           dir
-          .\docfx.console.2.58.9\tools\docfx Docs/docfx.json
+          .\docfx.console.2.58.9\tools\docfx docfx.json
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
