@@ -26,7 +26,7 @@ jobs:
         id: downloadfile  # Remember to give an ID if you need the output filename
         name: Download openapi.json
         with:
-          url: "https://raw.github.com/LowkeyCoding/WorkFlows/blob/master/openapi.json"
+          url: "https://raw.githubusercontent.com/LowkeyCoding/WorkFlows/master/openapi.swagger.json"
           target: ./
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
