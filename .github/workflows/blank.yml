@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          repository: 'https://github.com/P3-DAT3-03/Flea'
+          repository: 'P3-DAT3-03/Flea'
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
