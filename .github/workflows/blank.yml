@@ -41,5 +41,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: D:\a\Flea\Flea\docfx_project\_site
+          publish_dir: .\docfx_project\_site
           destination_dir: DOC
