@@ -17,8 +17,8 @@ jobs:
         with:
           repository: 'P3-DAT3-03/Flea'
       - uses: suisei-cn/actions-download-file@v1
-        id: download docfx  # Remember to give an ID if you need the output filename
-        name: Download the file
+        id: downloaddocfx  # Remember to give an ID if you need the output filename
+        name: Download docfx 
         with:
           url: "https://github.com/LowkeyCoding/WorkFlows/blob/master/docfx.json"
           target: ./
