@@ -51,12 +51,11 @@ jobs:
           cd ./Docs
           .\..\docfx.console.2.58.9\tools\docfx
           cd ..
-          mkdir final
           cp ./Docs/Site/* ./final
           dir
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .\Docs\Site
+          publish_dir: ./final
           destination_dir: DOC
