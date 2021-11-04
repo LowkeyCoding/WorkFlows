@@ -26,17 +26,19 @@ jobs:
           mkdir .\docfx.console.2.58.9\tools\Plugins
           nuget install rest.tagpage -OutputDirectory .\docfx.console.2.58.9\tools\Plugins
           dir
-      - name: Generate DocFx Data
+      - name: Init DocFx Data
         run: |
-          .\docfx.console.2.58.9\tools\docfx init -q
-          mv ./Flea/* ./docfx_project/src
-          mv ./api_spec.yaml ./docfx_project/src
-          cd ./docfx_project
+          .\docfx.console.2.58.9\tools\docfx init -q Docs
+          rm .\Docs\docfx.json
+          mv ./docfx.json ./Docs
+          mv ./Flea/* ./Docs/src
+          mv ./api_spec.yaml ./Docs/src
+          cd ./Docs
           .\..\docfx.console.2.58.9\tools\docfx metadata
       - name: Generate Documentation
         run: |
           dir
-          .\docfx.console.2.58.9\tools\docfx docfx_project/docfx.json
+          .\docfx.console.2.58.9\tools\docfx Docs/docfx.json
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
