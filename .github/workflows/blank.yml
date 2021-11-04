@@ -36,7 +36,7 @@ jobs:
       - name: Generate Documentation
         run: |
           dir
-          .\..\docfx.console.2.58.9\tools\docfx docfx_project/docfx.json -t default,<output>/rest.tagpage.<version>/content
+          .\..\docfx.console.2.58.9\tools\docfx docfx_project/docfx.json -t "default,<output>/rest.tagpage.<version>/content"
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
