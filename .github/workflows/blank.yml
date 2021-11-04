@@ -45,7 +45,6 @@ jobs:
           dir
           mv ./docfx.json ./Docs
           mv ./Flea/* ./Docs/src
-          mv ./openapi.json ./Docs/restapi
       - name: Generate Documentation
         run: |
           dir
