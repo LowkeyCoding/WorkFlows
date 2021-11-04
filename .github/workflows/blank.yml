@@ -17,7 +17,7 @@ jobs:
         id: downloadfile  # Remember to give an ID if you need the output filename
         name: Download the file
         with:
-          url: "https://raw.githubusercontent.com/LowkeyCoding/WorkFlows/master/docfx.json?token=ACQKOCUYNUDDK3V7HGXS2DDBRVW3I"
+          url: "https://raw.githubusercontent.com/docascode/docfx-seed/master/docfx.json"
           target: ./
       - uses: actions/checkout@v2
         with:
