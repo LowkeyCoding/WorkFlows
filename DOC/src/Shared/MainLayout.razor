@@ -1,0 +1,38 @@
+@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu/>
+    </div>
+
+    <div class="main">
+        <div class="top-row px-4">
+            <span id="HeaderTitle">@_headerTitle</span>
+        </div>
+
+        <div class="content px-4">
+            @Body
+        </div>
+    </div>
+</div>
+
+@code
+{
+    private static MainLayout _instance;
+    private static string _headerTitle;
+    
+    public static string HeaderTitle
+    {
+        get => _headerTitle;
+        set
+        {
+            _headerTitle = value;
+            _instance.StateHasChanged();
+        } 
+    }
+
+    public MainLayout()
+    {
+        _instance = this;
+    }
+}
