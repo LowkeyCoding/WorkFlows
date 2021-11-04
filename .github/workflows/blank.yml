@@ -50,7 +50,9 @@ jobs:
         run: |
           cd ./Docs
           .\..\docfx.console.2.58.9\tools\docfx
-          cp Site/* ../Site
+          cd ..
+          mkdir final
+          cp ./Docs/Site/* ./final
           dir
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
