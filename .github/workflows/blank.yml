@@ -42,11 +42,11 @@ jobs:
         run: |
           .\docfx.console.2.58.9\tools\docfx init -q -o Docs
           rm .\Docs\docfx.json
-          dir
           mv ./docfx.json ./Docs
-          mv ./openapi.json ./Docs/restapi
+          mv ./openapi.swagger.json ./Docs/restapi
           mv ./Flea/* ./Docs/src
           cd ./Docs
+          dir
           .\..\docfx.console.2.58.9\tools\docfx metadata
       - name: Generate Documentation
         run: |
