@@ -48,7 +48,9 @@ jobs:
           .\..\docfx.console.2.58.9\tools\docfx metadata
       - name: Generate Documentation
         run: |
-          .\docfx.console.2.58.9\tools\docfx .\Docs\docfx.json
+          cd ./Docs
+          .\docfx.console.2.58.9\tools\docfx
+          dir
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
