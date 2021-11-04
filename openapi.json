@@ -25,75 +25,11 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Event"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
-                    }
-                  }
                 }
               }
             }
@@ -145,75 +81,11 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Event"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
-                    }
-                  }
                 }
               }
             }
@@ -268,7 +140,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
@@ -276,71 +148,7 @@
                   "properties": {
                     "Message": {
                       "type": "string",
-                      "default": "Succesfully completed request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
+                      "default": "Successfully completed request"
                     }
                   }
                 }
@@ -383,7 +191,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
@@ -391,71 +199,7 @@
                   "properties": {
                     "Message": {
                       "type": "string",
-                      "default": "Succesfully completed request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
+                      "default": "Successfully completed request"
                     }
                   }
                 }
@@ -508,77 +252,13 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/Event"
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
-                    }
                   }
                 }
               }
@@ -622,75 +302,11 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Cluster"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
-                    }
-                  }
                 }
               }
             }
@@ -738,75 +354,11 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Cluster"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
-                    }
-                  }
                 }
               }
             }
@@ -854,7 +406,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
@@ -862,71 +414,7 @@
                   "properties": {
                     "Message": {
                       "type": "string",
-                      "default": "Succesfully completed request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
+                      "default": "Successfully completed request"
                     }
                   }
                 }
@@ -969,7 +457,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
@@ -977,71 +465,7 @@
                   "properties": {
                     "Message": {
                       "type": "string",
-                      "default": "Succesfully completed request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
+                      "default": "Successfully completed request"
                     }
                   }
                 }
@@ -1086,75 +510,11 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Table"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
-                    }
-                  }
                 }
               }
             }
@@ -1199,75 +559,11 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Table"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
-                    }
-                  }
                 }
               }
             }
@@ -1315,7 +611,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
@@ -1323,71 +619,7 @@
                   "properties": {
                     "Message": {
                       "type": "string",
-                      "default": "Succesfully completed request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
+                      "default": "Successfully completed request"
                     }
                   }
                 }
@@ -1430,7 +662,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
@@ -1438,71 +670,7 @@
                   "properties": {
                     "Message": {
                       "type": "string",
-                      "default": "Succesfully completed request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
+                      "default": "Successfully completed request"
                     }
                   }
                 }
@@ -1547,75 +715,11 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Reservation"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
-                    }
-                  }
                 }
               }
             }
@@ -1672,75 +776,11 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Reservation"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
-                    }
-                  }
                 }
               }
             }
@@ -1800,7 +840,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
@@ -1808,71 +848,7 @@
                   "properties": {
                     "Message": {
                       "type": "string",
-                      "default": "Succesfully completed request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
+                      "default": "Successfully completed request"
                     }
                   }
                 }
@@ -1915,7 +891,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
@@ -1923,71 +899,7 @@
                   "properties": {
                     "Message": {
                       "type": "string",
-                      "default": "Succesfully completed request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
+                      "default": "Successfully completed request"
                     }
                   }
                 }
@@ -2032,75 +944,11 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Customer"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
-                    }
-                  }
                 }
               }
             }
@@ -2148,75 +996,11 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Customer"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
-                    }
-                  }
                 }
               }
             }
@@ -2267,7 +1051,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
@@ -2275,71 +1059,7 @@
                   "properties": {
                     "Message": {
                       "type": "string",
-                      "default": "Succesfully completed request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
+                      "default": "Successfully completed request"
                     }
                   }
                 }
@@ -2382,7 +1102,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
@@ -2390,71 +1110,7 @@
                   "properties": {
                     "Message": {
                       "type": "string",
-                      "default": "Succesfully completed request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
+                      "default": "Successfully completed request"
                     }
                   }
                 }
@@ -2507,77 +1163,13 @@
         ],
         "responses": {
           "200": {
-            "description": "Succesfully completed request",
+            "description": "Successfully completed request",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/Customer"
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Bad request"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Unauthorized"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Forbidden"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Message": {
-                      "type": "string",
-                      "default": "Not Found"
-                    }
                   }
                 }
               }
@@ -2656,7 +1248,6 @@
             "type": "integer"
           },
           "Reservation": {
-            "type": "object",
             "$ref": "#/components/schemas/Reservation"
           },
           "Type": {
