@@ -45,6 +45,7 @@ jobs:
           mv ./docfx.json ./Docs
           mv ./openapi.swagger.json ./Docs/restapi
           mv ./Flea/* ./Docs/src
+          cd ./Docs
           .\..\docfx.console.2.58.9\tools\docfx metadata
       - name: Generate Documentation
         run: |
