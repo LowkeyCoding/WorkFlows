@@ -37,7 +37,6 @@ jobs:
           nuget install docfx.console -Version 2.58.9
           mkdir .\docfx.console.2.58.9\tools\Plugins
           nuget install rest.tagpage -OutputDirectory .\docfx.console.2.58.9\tools\Plugins
-          dir
       - name: Init DocFx Data
         run: |
           .\docfx.console.2.58.9\tools\docfx init -q -o Docs
@@ -49,8 +48,6 @@ jobs:
           .\..\docfx.console.2.58.9\tools\docfx metadata
       - name: Generate Documentation
         run: |
-          cd ./Docs
-          dir
           .\docfx.console.2.58.9\tools\docfx docfx.json
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
