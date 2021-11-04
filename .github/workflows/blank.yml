@@ -46,13 +46,14 @@ jobs:
           mv ./Flea/* ./Docs/src
           cd ./Docs
           .\..\docfx.console.2.58.9\tools\docfx metadata
-          dir
       - name: Generate Documentation
         run: |
           .\docfx.console.2.58.9\tools\docfx .\Docs\docfx.json
+          cd ./Docs
+          dir
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./Docs/_site
+          publish_dir: .\Docs\_site
           destination_dir: DOC
