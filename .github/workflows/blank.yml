@@ -39,24 +39,21 @@ jobs:
           nuget install rest.tagpage -OutputDirectory .\docfx.console.2.58.9\tools\Plugins
       - name: Init DocFx Data
         run: |
-          .\docfx.console.2.58.9\tools\docfx init -q -o Docs
-          rm .\Docs\docfx.json
-          mv ./docfx.json ./Docs
-          mv ./openapi.swagger.json ./Docs/restapi
-          mv ./Flea/* ./Docs/src
-          cd ./Docs
+          .\docfx.console.2.58.9\tools\docfx init -q
+          rm .\docfx_project\docfx.json
+          mv ./docfx.json ./docfx_project
+          mv ./openapi.swagger.json ./docfx_project/restapi
+          mv ./Flea/* ./docfx_project/src
+          cd ./docfx_project
           .\..\docfx.console.2.58.9\tools\docfx metadata
       - name: Generate Documentation
         run: |
-          cd ./Docs
+          cd ./docfx_project
           .\..\docfx.console.2.58.9\tools\docfx
           cd ..
-          mkdir final
-          mv ./Docs/Site/* ./final
-          dir ./final
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./final/
+          publish_dir: ./docfx_project/_site
           destination_dir: DOC
