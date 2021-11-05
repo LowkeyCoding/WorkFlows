@@ -35,8 +35,6 @@ jobs:
       - name: Setup DocFx
         run: |
           nuget install docfx.console -Version 2.58.9
-          mkdir .\docfx.console.2.58.9\tools\Plugins
-          nuget install rest.tagpage -OutputDirectory .\docfx.console.2.58.9\tools\Plugins
       - name: Init DocFx Data
         run: |
           .\docfx.console.2.58.9\tools\docfx init -q
