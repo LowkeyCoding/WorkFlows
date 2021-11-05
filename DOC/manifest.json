@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "D:/a/WorkFlows/WorkFlows/Docs",
+  "source_base_path": "D:/a/WorkFlows/WorkFlows/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Flea.Models.Cluster.html",
-          "hash": "q24u37/TZgn1Q1cm4KU679vPFKIXMqxFBFfEdaRjsLY="
+          "hash": "qIkrxmRWwp0GmrYGkk14cV4w1MUG472uHqo6n9HyMVc="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Flea.Models.Customer.html",
-          "hash": "ApA0RiRq5wLywD9eDVS3E3DXktjWF+f7ItArXJdw7fA="
+          "hash": "x4RXr7gJ0u7u/OSb/KlVWKNOh5FyczmgcrBDmJOUdwM="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Flea.Models.Event.html",
-          "hash": "NfahuE76pUrUGRK4SSymCjvEVmd3AhJ+cfW8+2CR+ow="
+          "hash": "CnEsjtpSeYR6rGZnNz3ChcSGYOdjrUz9CLqzvx8pB/Y="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Flea.Models.Reservation.html",
-          "hash": "QwtDnI6y5Z/4SMoLEa28AtjJeN0rIs2RP6hYEcf2x7c="
+          "hash": "UtNsSR8WfVrG5pGKIm1EyrvYquaUccL687FBwdKjajY="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Flea.Models.Table.TableType.html",
-          "hash": "I8e8Ffc3lKt5oATMSWqEvIaTrNb88j1ZGyomalcfTBU="
+          "hash": "dECTWG7N7GGNjesXvjwmucJmG95oTUEzMeK60+gYUoQ="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Flea.Models.Table.html",
-          "hash": "5LYIsTl9sW2g63c9fkTyqOKypHlM7sR7zI0wR2MVDj0="
+          "hash": "9YbPLVXvkWR5FevWmyWpuC2hWCF//udR93gUr2Sraqo="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Flea.Program.html",
-          "hash": "f2XnOqaXKmz+LYu4vhI4IU4M0sTXJD+yO9dTBbyBRf0="
+          "hash": "cC7w5hursU5OTKL68HTLsmvGILZfFMCQeRdp+LRz3jc="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "W7gWDqBcwKA74PxHp3lQ6inYpgv6CVzIZGVigzLSvAo="
+          "hash": "gWUxiikA085z/jeT6yHAqwfMYGeyRrzhtXSqPSPHf/U="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "EqNWlPUnE1TYT9DtAlrTO36ctK0H6BqCANH7suzG6Ww="
+          "hash": "zUd8C4MVWR8ADnG6PsPWDL45Nva/0m1wAix6272SrnI="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "O1LWNFSnJhU9pxoyn945n+W1EThafQy2U5f6T+bzucg="
+          "hash": "J64iUv73FNR976+BFwPyHmq4MX508eiphChdcJ8v+94="
         }
       },
       "is_incremental": false,
