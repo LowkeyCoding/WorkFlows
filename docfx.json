@@ -53,7 +53,7 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default", "./docfx.console.2.58.9/tools/Plugins/rest.tagpage.2.58.9/content"
+      "default"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
