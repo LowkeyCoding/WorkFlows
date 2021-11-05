@@ -26,8 +26,7 @@
           "articles/**.md",
           "articles/**/toc.yml",
           "toc.yml",
-          "*.md",
-          "restapi/**"
+          "*.md", "restapi/**"
         ]
       }
     ],
